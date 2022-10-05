@@ -2,7 +2,8 @@
 # written by eclipsedotspace@gmail.com
 # hosted under the MIT license
 # written under 100 lines in Python
-
+# https://github.com/Just-a-Unity-Dev/quikskript
+# eclips-e.space
 
 class Interpreter():
     def __init__(self):
