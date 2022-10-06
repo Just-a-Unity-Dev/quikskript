@@ -18,7 +18,7 @@ proc cli*() =
   if paramCount() == 0:
     writeHelp()
     quit(0)
-  
+
   for kind, key, val in getopt():
     case kind
     of cmdLongOption, cmdShortOption:
