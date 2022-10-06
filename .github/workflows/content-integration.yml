@@ -29,7 +29,7 @@ jobs:
         if: contains(matrix.nim-flags, 'i386')
         run: sudo apt-get update && sudo apt-get -y install gcc-multilib
       - name: Run tests
-        run: nim compile ${{matrix.nim-flags}} --run test/test
+        run: nim compile ${{matrix.nim-flags}} --run interpreter/tests/test
       - name: Check formatting
         if: runner.os == 'Linux'
         run: |
