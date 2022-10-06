@@ -1,3 +1,9 @@
+# nimble gitignore
 nimcache/
 nimblecache/
 htmldocs/
+
+# ignore files wo extension (posix binaries)
+*
+!*.*
+!*/
